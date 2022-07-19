@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="SeedWork\" />
+    <None Remove="AggregateModels\" />
+    <None Remove="AggregateModels\OrderModels\" />
+    <None Remove="AggregateModels\BuyerModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SeedWork\" />
+    <Folder Include="AggregateModels\" />
+    <Folder Include="AggregateModels\OrderModels\" />
+    <Folder Include="AggregateModels\BuyerModels\" />
+  </ItemGroup>
+</Project>
